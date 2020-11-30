@@ -1,0 +1,38 @@
+*{  
+    margin: 0px;  
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    color: #fff;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../wallpaper_sm.jpg") no-repeat center center/cover;
+    background-color: #f0f0f0;
+}
+
+.container{
+    height: 100%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#myCanvas{
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
